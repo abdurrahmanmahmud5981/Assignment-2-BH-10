@@ -13,7 +13,7 @@
         width: 100%;
     }
     .banner-title, .banner-title span{
-        font-size: 2.1rem;
+        font-size: 2.25rem;
     }
     .btn {
         padding:.8rem 1rem;
@@ -40,6 +40,15 @@
 
 
       }
+
+      /* habit change */
+      .habit-box {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+      }
+      .title{
+        font-size: 2.25rem;
+      }
 }
 
 /* medium device */
@@ -53,5 +62,8 @@
     .banner-info{
         width: 100%;
     }
-  
+   /* habit change */
+   .habit-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
