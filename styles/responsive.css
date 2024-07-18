@@ -6,12 +6,52 @@
     .hamburger-menu{
         display: block;
     }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-info{
+        width: 100%;
+    }
+    .banner-title, .banner-title span{
+        font-size: 2.1rem;
+    }
+    .btn {
+        padding:.8rem 1rem;
+        font-size: 1.1rem;
+    }
+    .banner-btns {
+        width: 100%;
+        align-items: center;
+        justify-content:flex-start;
+        gap: 0.8rem;
+      }
+      .tutorial-box{
+        left: 0;
+        bottom:  42%;
+        padding: .8rem;
+      }
+      .tutorial-info p {
+        font-size: .8rem;
+      }
+      #workout-box{
+        top: 10%;
+        right: 0%;
+        padding: .8rem;
+
+
+      }
 }
 
 /* medium device */
-@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 992px){
     .menu{
         gap: .88rem;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-info{
+        width: 100%;
     }
   
 }
