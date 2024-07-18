@@ -1,0 +1,17 @@
+/* small device */
+@media screen and (max-width: 576px){
+    .menu{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}
+
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .menu{
+        gap: .88rem;
+    }
+  
+}
