@@ -61,16 +61,16 @@
       </div>
     </header>
     <main>
-        <!-- habit section start -->
+      <!-- habit section start -->
       <section class="habits-change flex">
-       <div class="habit-info">
-        <h2 class="habit-title title">Change Your Habits</h2>
-        <p class="habit-description description">
-          We believe fitness should be accessible to everyone, everywhere,
-          regardless of income or access to a gym.
-        </p>
-       </div>
-        <div class="habit-box ">
+        <div class="habit-info">
+          <h2 class="habit-title title">Change Your Habits</h2>
+          <p class="habit-description description">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div class="habit-box">
           <div class="habit-item">
             <img src="./images/habit-img-1.png" alt="habit-img-1 " />
             <h3>Movement</h3>
@@ -93,23 +93,90 @@
           </div>
         </div>
       </section>
-        <!-- habit section end -->
-        <!-- run an extra mile section start -->
-         <section class="run flex">
-            <div class="run-info flex">
-                <h2 class="title">Run an Extra Mile Easily</h2>
-                <p class="description">
-                    We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.
-                </p>
-                <button class="btn">Join Now</button>
+      <!-- habit section end -->
+      <!-- run an extra mile section start -->
+      <section class="run flex">
+        <div class="run-info flex">
+          <h2 class="title">Run an Extra Mile Easily</h2>
+          <p class="description">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.
+          </p>
+          <button class="btn">Join Now</button>
+        </div>
+        <div class="run-image">
+          <img src="./images/run.jpg" alt="a man running on the street" />
+        </div>
+      </section>
+      <!-- run an extra mile section end -->
+      <!-- BMI calculator section start -->
+      <section class="calculator">
+        <div class="calculator-header">
+          <h2 class="title">BMI Calculator</h2>
+          <p class="description">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div class="calculator-container">
+          <div class="calculator-content flex">
+            <div class="bmi-chart">
+              <h3 class="bmi-chart-title">BMI Calculator Chart</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>BMI</th>
+                    <th>Weight Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="description">Below 18.5</td>
+                    <td class="description">Underweight</td>
+                  </tr>
+                  <tr>
+                    <td class="description">18.5-24.9</td>
+                    <td class="description">Healthy</td>
+                  </tr>
+                  <tr>
+                    <td class="description">25.0-29.9</td>
+                    <td class="description">Overweight</td>
+                  </tr>
+                  <tr>
+                    <td class="description">30.0- and Above</td>
+                    <td class="description">Obese</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div class="run-image">
-                <img src="./images/run.jpg" alt="a man running on the street">
+            <div class="bmi-form">
+              <h3 class="bmi-form-title">Calculate Your BMI</h3>
+              <p class="description">
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym.
+              </p>
+             <form >
+                <input type="number" placeholder="Height/cm">
+                <input type="number" placeholder="Weight/kg">
+                <input type="number" placeholder="Age">
+                <select name="" id="">
+                    <option class="first" value="sex">Sex</option>
+                    <option value="male">Male</option>
+                    <option value="femail">Femail</option>
+                </select>
+                <select name="" id="factor">
+                    <option class="first" value="select an activity factor">Select ana activity factor </option>
+                    <option value="one">one</option>
+                    <option value="two">two</option>
+                </select>
+                <button class="btn bmi-btn">Calculate</button>
+             </form>
             </div>
-         </section>
-        <!-- run an extra mile section end -->
-
-
+          </div>
+        </div>
+      </section>
+      <!-- BMI calculator section end -->
     </main>
     <footer></footer>
   </body>

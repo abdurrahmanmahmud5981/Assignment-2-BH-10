@@ -17,7 +17,7 @@
     font-size: 2.25rem;
   }
   .btn {
-    padding: 0.8rem 1rem;
+    padding: 0.8rem 1.2rem;
     font-size: 1.1rem;
   }
   .banner-btns {
@@ -61,6 +61,31 @@
   .run-image {
     width: 100%;
   }
+  /* bmi calculator */
+  .calculator-content {
+    flex-direction: column;
+  }
+  .bmi-chart {
+    width: 100%;
+  }
+
+  .bmi-chart-title,
+  .bmi-form-title {
+    color: rgb(255, 255, 255);
+    font-size: var(--font-16);
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 1rem;
+  }
+  input,
+  select {
+    padding: 1rem 0.66rem;
+  }
+  .bmi-btn{
+    margin-top: 1.5rem;
+    max-width: 100%;
+}
 }
 
 /* medium device */
@@ -90,4 +115,23 @@
   .run-image {
     width: 100%;
   }
+  /* bmi calculator */
+  .calculator-content {
+    flex-direction: column;
+  }
+  .bmi-chart {
+    width: 100%;
+  }
+  table{
+    width: 100%;
+  }
+}
+/* large device */
+@media screen and (min-width: 992px){
+    #workout-box {
+        top: 30%;
+        right: 0%;
+        padding: 0.7rem;
+        width: 53%;
+      }
 }
