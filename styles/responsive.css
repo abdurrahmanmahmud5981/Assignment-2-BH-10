@@ -1,69 +1,93 @@
 /* small device */
-@media screen and (max-width: 576px){
-    .menu{
-        display: none;
-    }
-    .hamburger-menu{
-        display: block;
-    }
-    .banner{
-        flex-direction: column;
-    }
-    .banner-info{
-        width: 100%;
-    }
-    .banner-title, .banner-title span{
-        font-size: 2.25rem;
-    }
-    .btn {
-        padding:.8rem 1rem;
-        font-size: 1.1rem;
-    }
-    .banner-btns {
-        width: 100%;
-        align-items: center;
-        justify-content:flex-start;
-        gap: 0.8rem;
-      }
-      .tutorial-box{
-        left: 0;
-        bottom:  42%;
-        padding: .8rem;
-      }
-      .tutorial-info p {
-        font-size: .8rem;
-      }
-      #workout-box{
-        top: 10%;
-        right: 0%;
-        padding: .8rem;
+@media screen and (max-width: 576px) {
+  .menu {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-info {
+    width: 100%;
+  }
+  .banner-title,
+  .banner-title span {
+    font-size: 2.25rem;
+  }
+  .btn {
+    padding: 0.8rem 1rem;
+    font-size: 1.1rem;
+  }
+  .banner-btns {
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+  }
+  .tutorial-box {
+    left: 0;
+    bottom: 42%;
+    padding: 0.8rem;
+  }
+  .tutorial-info p {
+    font-size: 0.8rem;
+  }
+  #workout-box {
+    top: 10%;
+    right: 0%;
+    padding: 0.8rem;
+  }
 
+  /* habit change */
+  .habit-box {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4rem;
+  }
+  .title {
+    font-size: 2.25rem;
+  }
 
-      }
-
-      /* habit change */
-      .habit-box {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 4rem;
-      }
-      .title{
-        font-size: 2.25rem;
-      }
+  /* run */
+  .run {
+    flex-direction: column;
+    padding: 1.5rem 0.9rem;
+  }
+  .run-info {
+    align-items: stretch;
+  }
+  .run-info,
+  .run-image {
+    width: 100%;
+  }
 }
 
 /* medium device */
-@media screen and (min-width: 576px) and (max-width: 992px){
-    .menu{
-        gap: .88rem;
-    }
-    .banner{
-        flex-direction: column;
-    }
-    .banner-info{
-        width: 100%;
-    }
-   /* habit change */
-   .habit-box {
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .menu {
+    gap: 0.88rem;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-info {
+    width: 100%;
+  }
+  /* habit change */
+  .habit-box {
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* run */
+  .run {
+    flex-direction: column;
+    padding: 1.5rem 0.9rem;
+  }
+  .run-info {
+    align-items: stretch;
+  }
+  .run-info,
+  .run-image {
+    width: 100%;
   }
 }
