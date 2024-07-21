@@ -82,14 +82,42 @@
   select {
     padding: 1rem 0.66rem;
   }
-  .bmi-btn{
+  .bmi-btn {
     margin-top: 1.5rem;
     max-width: 100%;
-}
-/* team */
-.team-gallery{
-    grid-template-columns: repeat(1,1fr);
-}
+  }
+  /* team */
+  .team-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* upcomming class */
+.upcomming-dayes {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0.9rem;
+  }
+  .day {
+    width: 80%;
+  }
+  .class-number,
+  .class-info {
+    width: 100%;
+  }
+  .classes {
+    flex-direction: column;
+  }
+  .class-number h2 {
+    font-size: 4.5rem;
+    margin-top: 1rem;
+  }
+  .class-number h4 {
+    font-size: 1.5rem;
+  }
+  .class-info{
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 /* medium device */
@@ -126,20 +154,45 @@
   .bmi-chart {
     width: 100%;
   }
-  table{
+  table {
     width: 100%;
   }
   /* team */
-.team-gallery{
-    grid-template-columns: repeat(2,1fr);
-}
+  .team-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+   /* upcomming class */
+   .upcomming-header {
+    gap: 2rem;
+    padding: 1.5rem 0.9rem;
+  }
+  .upcomming-dayes {
+    padding: 1.5rem 0.9rem;
+    flex-wrap: wrap;
+  }
+  .class-number,
+  .class-info {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .class-number{
+    align-items: center;
+    
+  }
+  .class-number h2 {
+    font-size: 4.5rem;
+    margin-top: 1rem;
+  }
+  .class-number h4 {
+    font-size: 1.5rem;
+  }
 }
 /* large device */
-@media screen and (min-width: 992px){
-    #workout-box {
-        top: 30%;
-        right: 0%;
-        padding: 0.7rem;
-        width: 53%;
-      }
+@media screen and (min-width: 992px) {
+  #workout-box {
+    top: 30%;
+    right: 0%;
+    padding: 0.7rem;
+    width: 53%;
+  }
 }
