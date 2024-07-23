@@ -488,3 +488,57 @@ select {
    border-radius: 0;
    padding-block: .8rem;
 }
+
+/* footer */
+footer{
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 5rem 0.9rem 2.3rem; 
+}
+.footer-container{
+  gap: 3rem;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer-brand-info{
+  flex: 1.2;
+}
+.footer-brand-info .title{
+  color: var(--primary-color);
+  font-style: italic;
+}
+.footer-brand-info p{
+  margin-top: 1rem;
+  max-width: 25rem;
+  font-size: 1rem;
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: .4;
+  padding-left: 3rem;
+}
+.footer-links h3{
+  font-size: 2rem;
+}
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style:  none;
+}
+.footer-item a{
+ color: var(--description-color);
+ font-size:1.4rem;
+ text-decoration: none;
+}
+.reserved{
+  text-align: center;
+  padding-top: 1.2rem;
+  font-size: 1.2rem;
+}
